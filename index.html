@@ -1,4 +1,4 @@
-html<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -22,6 +22,7 @@ html<!DOCTYPE html>
             margin: 0;
             padding: 0;
         }
+
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             background-color: var(--bg-navy);
@@ -39,6 +40,7 @@ html<!DOCTYPE html>
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
             border-bottom: 2px solid var(--light-blue);
         }
+
         .nav-container {
             max-width: 1100px;
             margin: 0 auto;
@@ -46,6 +48,7 @@ html<!DOCTYPE html>
             justify-content: center;
             flex-wrap: wrap;
         }
+
         .nav-container a {
             color: var(--text-light);
             text-decoration: none;
@@ -56,9 +59,11 @@ html<!DOCTYPE html>
             letter-spacing: 0.5px;
             transition: all 0.3s ease;
         }
+
         .nav-container a:hover {
             background-color: var(--light-blue);
         }
+
         .nav-container a.active {
             background-color: var(--light-blue);
             border-bottom: 3px solid var(--text-light);
@@ -74,23 +79,27 @@ html<!DOCTYPE html>
             height: 350px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
         }
+
         .slideshow {
             display: flex;
             width: 300%; /* 3 images = 300% width */
             height: 100%;
             animation: slide 15s infinite ease-in-out;
         }
+
         .slide {
             width: 33.333%;
             height: 100%;
             position: relative;
         }
+
         .slide img {
             width: 100%;
             height: 100%;
             object-fit: cover;
             display: block;
         }
+
         /* CSS Slideshow Animation */
         @keyframes slide {
             0%, 28% { transform: translateX(0); }
@@ -105,6 +114,7 @@ html<!DOCTYPE html>
             margin: 30px auto;
             padding: 0 20px;
         }
+
         .profile-card {
             background-color: var(--card-white);
             color: var(--text-dark);
@@ -121,6 +131,7 @@ html<!DOCTYPE html>
             flex-shrink: 0;
             width: 220px;
         }
+
         .profile-image-wrapper img {
             width: 100%;
             height: auto;
@@ -134,6 +145,7 @@ html<!DOCTYPE html>
         .profile-text {
             flex-grow: 1;
         }
+
         .profile-text h1 {
             font-size: 2rem;
             margin-bottom: 15px;
@@ -141,11 +153,13 @@ html<!DOCTYPE html>
             border-bottom: 2px solid #E2E8F0;
             padding-bottom: 10px;
         }
+
         .portfolio-paragraph {
             margin-bottom: 20px;
             font-size: 1.1rem;
             line-height: 1.7;
         }
+
         .placeholder-box {
             background-color: #F8FAFC;
             border-left: 4px solid var(--light-blue);
@@ -214,7 +228,6 @@ html<!DOCTYPE html>
     <!-- 3. Page Layout (Main Profile Section) -->
     <main class="main-content">
         <div class="profile-card">
-            
             <!-- Left Side Element -->
             <div class="profile-image-wrapper">
                 <img src="Football.jpg" alt="My Profile Football Image">
@@ -224,22 +237,19 @@ html<!DOCTYPE html>
             <div class="profile-text">
                 <h1>Welcome to My Portfolio</h1>
                 
-                <!-- Paragraph 1 Placeholder -->
+                <!-- Paragraph 1 -->
                 <div class="portfolio-paragraph">
                     <div class="placeholder-box">
-                        <!-- Paragraph 1 Intent: Explain the purpose of this portfolio (to showcase skills learned in Multimedia class). -->
-                        [Replace this text to explain the purpose of your portfolio and how it showcases the skills you have learned throughout your Multimedia class.]
+                        This Portfolio will further explain my skills in Photoshop, and prove to you how much I learned in this unit.
                     </div>
                 </div>
                 
-                <!-- Paragraph 2 Placeholder -->
+                <!-- Paragraph 2 -->
                 <div class="portfolio-paragraph">
                     <div class="placeholder-box">
-                        <!-- Paragraph 2 Intent: Detail current skills and what you plan to learn in this class. -->
-                        [Replace this text to detail your current multimedia skills, your technical strengths, and what milestones or concepts you plan to learn in this class moving forward.]
+                        I used different types of tools to further advance my images. I also used complex tools to bring my image together, and make it pop. I used my skills to my advantage as shown in the "Photoshop" tab.
                     </div>
                 </div>
-
             </div>
         </div>
     </main>
