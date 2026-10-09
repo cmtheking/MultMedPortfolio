@@ -1,0 +1,178 @@
+<html
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Multimedia Portfolio - Photoshop</title> 
+    <style> 
+        :root { 
+            --bg-navy: #0A192F; 
+            --accent-blue: #172A45; 
+            --light-blue: #3066BE; 
+            --card-white: #FFFFFF; 
+            --text-dark: #1A1A1A; 
+            --text-muted: #555555; 
+            --text-light: #FFFFFF; 
+        } 
+        * { 
+            margin: 0; 
+            padding: 0; 
+            box-sizing: border-box; 
+        } 
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+            background-color: var(--bg-navy); 
+            color: var(--text-light); 
+            line-height: 1.6; 
+            padding-bottom: 40px; 
+        } 
+        /* Navigation */ 
+        .navbar { 
+            background-color: var(--accent-blue); 
+            position: sticky; 
+            top: 0; 
+            z-index: 1000; 
+            border-bottom: 2px solid var(--light-blue); 
+            box-shadow: 0 2px 10px rgba(0,0,0,0.3); 
+        } 
+        .nav-container { 
+            max-width: 1100px; 
+            margin: 0 auto; 
+            display: flex; 
+            justify-content: center; 
+            flex-wrap: wrap; 
+        } 
+        .nav-container a { 
+            color: var(--text-light); 
+            text-decoration: none; 
+            padding: 16px 20px; 
+            font-weight: 600; 
+            font-size: 0.95rem; 
+            text-transform: uppercase; 
+            letter-spacing: 0.5px; 
+            transition: 0.3s ease; 
+        } 
+        .nav-container a:hover { 
+            background-color: var(--light-blue); 
+        } 
+        .nav-container a.active { 
+            background-color: var(--light-blue); 
+            border-bottom: 3px solid var(--text-light); 
+        } 
+        /* Page Content */ 
+        .main-content { 
+            max-width: 1100px; 
+            margin: 30px auto; 
+            padding: 0 20px; 
+        } 
+        .image-card { 
+            background-color: var(--card-white); 
+            color: var(--text-dark); 
+            border-radius: 8px; 
+            padding: 25px; 
+            margin-bottom: 35px; 
+            box-shadow: 0 4px 20px rgba(0,0,0,0.25); 
+        } 
+        .image-card h2 { 
+            font-size: 1.7rem; 
+            margin-bottom: 15px; 
+            color: var(--bg-navy); 
+            border-bottom: 2px solid #E2E8F0; 
+            padding-bottom: 8px; 
+        } 
+        .image-wrapper { 
+            width: 100%; 
+            margin-bottom: 20px; 
+        } 
+        .image-wrapper img { 
+            width: 100%; 
+            border-radius: 6px; 
+            border: 4px solid var(--light-blue); 
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15); 
+        } 
+        .placeholder-box { 
+            background-color: #F8FAFC; 
+            border-left: 4px solid var(--light-blue); 
+            padding: 15px; 
+            color: var(--text-muted); 
+            font-style: italic; 
+            border-radius: 0 4px 4px 0; 
+            margin-bottom: 20px; 
+        } 
+        @media (max-width: 768px) { 
+            .nav-container a { 
+                padding: 12px 14px; 
+                font-size: 0.85rem; 
+            } 
+        } 
+    </style> 
+</head> 
+<body> 
+    <!-- Navigation --> 
+    <nav class="navbar"> 
+        <div class="nav-container"> 
+            <a href="index.html">Home</a> 
+            <a href="photoshop.html" >Photoshop</a> 
+            <a href="illustrator.html"class="active">Illustrator</a> 
+            <a href="premiere.html">Premiere Pro Videos</a> 
+            <a href="animation.html">Animation</a> 
+            <a href="final.html">Final Project</a> 
+        </div> 
+    </nav> 
+    <main class="main-content"> 
+        <!-- Image 1 --> 
+        <div class="image-card"> 
+            <h2>Logo Image</h2> 
+            <div class="image-wrapper"> 
+                <img src="Logo.jpg" alt="Initials Logo Illustrator Image"> 
+            </div> 
+            <div class="placeholder-box"> 
+                This image above shows my initals in a logo. I chose this image because it shows something senti-mental to me.
+            </div> 
+            <div class="placeholder-box"> 
+                The Illustrator tools i used is the circle tool, the text box tool, and star tool making it appear as it is peircing the circle.
+            </div> 
+        
+        <!-- Image 2 --> 
+        <div class="image-card"> 
+            <h2>Pig Image</h2> 
+            <div class="image-wrapper"> 
+                <img src="Pig.jpg" alt="Pig Illustrator Image"> 
+            </div> 
+            <div class="placeholder-box"> 
+                I Chose this image of the Pig as I feel suits the prompt of drawing an animal. As everyone can recognize this image.
+            </div> 
+            <div class="placeholder-box"> 
+                 The tools i used in this image help make the ears and the tag wound through the ear using the star and triangle shape tool. I also used the shift + the circle tool to make it perfectly symmetical. 
+            </div> 
+        </div> 
+        <!-- Image 3 --> 
+        </div> <div class="image-card"> 
+            <h2>Topgun Image</h2> 
+            <div class="image-wrapper"> 
+                <img src="Topgun.jpg" alt="Topgun Illustrator Image"> 
+            </div> 
+            <div class="placeholder-box"> 
+                I chose this Topgun image because it shows my skills in Illustrator. I thought Topgun would be a good choice as it is a very popular movie from the 80's. And holds a special place in everyones heart. 
+            </div> 
+            <div class="placeholder-box"> 
+                I used proper paintbrush tool, perfect allignment through the wings, and mirror tool to help bring the symmetry come alive.
+            </div> 
+        <!-- Image 4 --> 
+        <div class="image-card"> 
+            <h2>Falcon Image</h2> 
+            <div class="image-wrapper"> 
+                <img src="Falcon.jpg" alt=" Christmas Falcon Illustrator Image"> 
+            </div> 
+            <div class="placeholder-box"> 
+                In this image, shows my favorite image, This shows a falcon diving down with a Christmas hat on and festive lines as he is going over 100 miles per hour.
+            </div> 
+            <div class="placeholder-box"> 
+                I used the Blob- paintbrush tool to add in the festive line colors, and for the hat i used the pencil tool to outline and then finished with the blob-paintbrush tool.
+            </div> 
+        </div> 
+        
+    </main> 
+</body> 
+</html>
